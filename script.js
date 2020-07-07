@@ -25,7 +25,7 @@ ctx.imageSmoothingEnabled = false;
 
 //Nave inimiga
 let imagemTie = new Image();
-imagemTie.src = 'img/tie-fighter.png';
+imagemTie.src = 'tie-fighter.png';
 let navesInim = [];
 let x1 = -115;
 let x2 = 0;
@@ -33,7 +33,7 @@ let x2 = 0;
 
 //Millennium falcon
 let imagemMillennium = new Image();
-imagemMillennium.src = 'img/millenium.png';
+imagemMillennium.src = 'millenium.png';
 let millennium = new Sprite(670, 580, 124, 158, imagemMillennium);
 let millenniumXAtual = 0;//apagar?
 
@@ -45,7 +45,7 @@ let retangulo = new Sprite(30, 750, 1440, 120);
 
 //Vida
 let imagemVida = new Image();
-imagemVida.src = 'img/millenium-vida.png';
+imagemVida.src = 'millenium-vida.png';
 let vidas = [new Sprite(1174, 770, 68, 86, imagemVida), new Sprite(1262, 770, 68, 86, imagemVida), new Sprite(1350, 770, 68, 86, imagemVida)];
 let numVidas = 3;
 
