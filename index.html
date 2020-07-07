@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body{
+            background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-29_9e72b83c.png?download=true);
+            background-size: cover;
+        }
+        
+        canvas{
+            border: 1px solid black;
+            display: block;
+            margin: auto;
+            background-color: black;
+        }
+
+        header img{
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+
+        h1{
+            font: 70px  'Press Start 2P', cursive;
+            color: #ffcd22;
+            text-align: center;
+        }
+
+        header{
+            margin: auto;
+        }
+        p{
+            font: 24px Arial;
+            background-color: #ffcd22;
+            padding: 5px;
+            border: solid 3px  #ffcd22;
+            border-radius: 0px 10px 10px 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Megamania</h1>
+        <img src="img/titulo.png">
+    </header>
+    <canvas width="1500" height="900" id="game"></canvas>
+    <p>Algumas informações sobre o - quase -jogo: A Millennium Falcon se mexe seguindo o mouse e quando tem o evento de click, a nave "atira" (aparece um tiro no meio do jogo - algo que ainda vai ser melhorado).</p>
+    <script src="script.js"></script>
+</body>
+</html>
