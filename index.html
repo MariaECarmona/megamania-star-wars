@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megamania Star Wars</title>
-    <link rel="icon" href="millennium-icon.ico">
+    <link rel="icon" href="img/millennium-icon.ico">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Jost:wght@300&family=Montserrat+Alternates:wght@200&family=Open+Sans:wght@300&family=Questrial&family=Quicksand:wght@300&family=Raleway:wght@300&display=swap');
+
         body{
             background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-29_9e72b83c.png?download=true);
             background-size: cover;
+            margin: 0px;
         }
         
         canvas{
@@ -17,7 +20,7 @@
             display: block;
             margin: auto;
             background-color: black;
-            cursor:none;
+            cursor: none;
         }
 
         header img{
@@ -34,27 +37,60 @@
             text-align: center;
         }
 
+        h2{
+            font: 40px  'Press Start 2P', cursive;
+            color: #000000;
+            padding: 0px;
+            margin: 10px;
+
+        }
         header{
             margin: auto;
         }
-        p{
+        section{
+            margin: 50px;
             font: 24px Arial;
             background-color: #ffcd22;
             padding: 5px;
             border: solid 3px  #ffcd22;
             border-radius: 0px 10px 10px 10px;
+            margin: 10px;
         }
-
+        div{
+            padding-left: 2%;
+        }
+        p{
+            padding: 0.5%;
+            margin: 0px;
+        }
+        footer{
+            color: white;
+            background-color: black;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            padding: 100px;
+            text-align: center;
+        }
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Megamania</h1>
+        <h1>MEGAMANIA</h1>
         <img src="titulo.png">
     </header>
     <canvas width="1500" height="900" id="game"></canvas>
-    <p>Algumas informações sobre o - quase -jogo: A Millennium Falcon se mexe seguindo o mouse e quando tem o evento de click, a nave "atira" (aparece um tiro no meio do jogo - algo que ainda vai ser melhorado).</p>
+    <section>
+        <h2>Como jogar</h2>
+        <div>
+            <p><b style="font-size: 24px;">Mover a Millennium Falcon: </b>movimentar o mouse</p>
+            <p><b style="font-size: 24px;">Atirar: </b>espaço</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Criado por Maria Eduarda Carmona Banhos</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
